@@ -36,7 +36,10 @@ To start connection, store an instance of it in a variable by calling its connec
     
        const connection = SimpleSerial.connect(); 
        
-
+### Sending events
+Define events you want to send to the Arduino ,any valid JSON can be sent as parameter :
+    
+    connection.send('event-with-string', parameter);
     
 
     
