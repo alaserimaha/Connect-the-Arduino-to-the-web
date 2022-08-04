@@ -59,7 +59,7 @@ Defining an event listener with event name and callback function on setup functi
     
     WebSerial.on("browser-event", doSomething);
     
-on doSomething function We will add the task of moving the robot arm, if the parameter is right, it will move the arm to 180 degrees, and if it is left, it will move to 0 degrees
+on doSomething function We will add the task of moving the robot arm, if the parameter is right, it will move the arm to 180 degrees, and if it is left, it will move to 0 degrees:
     
     void doSomething(JSONVar parameter) {
       if parameter.equals("right"){
@@ -69,4 +69,9 @@ on doSomething function We will add the task of moving the robot arm, if the par
       }
     }
     
-
+call the check() method at the beginning of each loop() to  make sure the library knows when there is new serial data available:
+    
+    
+   void loop() {
+      WebSerial.check();
+   }
