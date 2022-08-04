@@ -1,2 +1,5 @@
 # Connect-the-Arduino-to-the-web
-Connect the Arduino to the web, and move the arm of the robot at a specific angle
+How can we design a web page that converts audio to text, and then sends this text to the Arduino to move the robot arm left or right?
+
+Previously, we learned how to design a website to convert audio to text
+To see:
