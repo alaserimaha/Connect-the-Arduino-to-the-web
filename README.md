@@ -59,4 +59,14 @@ Defining an event listener with event name and callback function on setup functi
     
     WebSerial.on("browser-event", doSomething);
     
+on doSomething function We will add the task of moving the robot arm, if the parameter is right, it will move the arm to 180 degrees, and if it is left, it will move to 0 degrees
+    
+        void doSomething(JSONVar parameter) {
+      if parameter.equals("right"){
+          servo1.write(180);
+      }else if parameter.equals("left"){
+          servo1.write(0);
+      }
+    }
+    
 
