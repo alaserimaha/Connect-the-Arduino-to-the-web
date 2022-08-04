@@ -34,7 +34,7 @@ We will add some command lines in the previous web page to open a connection bet
 To start connection, store an instance of it in a variable by calling its connect method:
 
     
-       - const connection = SimpleSerial.connect(); 
+       const connection = SimpleSerial.connect(); 
        
 
     
