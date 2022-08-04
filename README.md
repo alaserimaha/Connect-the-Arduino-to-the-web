@@ -17,7 +17,7 @@ There are several ways to install Web Serial API in a web page via JavaScript,
 We will install Via <script> tag
 
 This is the easiest method to get you started immediately. Just include the script tag inside the <head> of your document and you're good to go:
-       <script lang="text/javascript" src="https://unpkg.com/simple-web-serial@latest/dist/simple-serial.min.js"></script>
+        - <script lang="text/javascript" src="https://unpkg.com/simple-web-serial@latest/dist/simple-serial.min.js"></script>
 
 
 
