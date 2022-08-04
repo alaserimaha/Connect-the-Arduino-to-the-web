@@ -28,5 +28,11 @@ This is the easiest method to get you started immediately. Just include the scri
     4- Click on Simple Web Serial and hit the install button. 
 After the download is complete, the Arduino is ready to use!
 
+## 3. JavaScript Usage
+We will add some command lines in the previous web page to open a connection between the Arduino and the web page and then we will send the events
+### Connection start
+To start connection, store an instance of it in a variable by calling its connect method:
+        const connection = SimpleSerial.connect();
 
+    
 
