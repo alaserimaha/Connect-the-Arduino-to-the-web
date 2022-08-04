@@ -76,4 +76,4 @@ call the check() method at the beginning of each loop() to  make sure the librar
         WebSerial.check();
     }
 
-To see the complete Arduino code file, you can find it from the attachments above
+To see the complete Arduino code file, you can find it from the attachments above [Web Serial API Arduino File]( https://github.com/alaserimaha/Connect-the-Arduino-to-the-web/blob/main/web_serial_API.ino)
