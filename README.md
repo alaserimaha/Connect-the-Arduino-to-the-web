@@ -80,5 +80,7 @@ To see the complete Arduino code file, you can find it from the attachments abov
     
  Thats it, the software is ready to move the robot arm
     
- The references :
+ ### The references :
+- https://fmgrafikdesign.gitbook.io/simplewebserial/
+- https://wicg.github.io/serial/
     
