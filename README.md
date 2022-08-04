@@ -5,7 +5,7 @@ Previously, we learned how to design a website to convert audio to text , To see
 
 And also we learned how to download the Arduino IDE to write code , To see: [Getting Started With ESP32](https://github.com/alaserimaha/Getting-Started-With-ESP32)
 
-Now to complete the project, using https://web.dev/serial/ (which helps us to connect the website to the Arduino) through some steps:
+Now to complete the project, using [Web Serial API](https://web.dev/serial/) (which helps us to connect the website to the Arduino) through some steps:
 
 ## 1. Installation - JavaScript
 ## 2. Installation - Arduino
