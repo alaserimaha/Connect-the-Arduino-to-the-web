@@ -35,13 +35,6 @@ To start connection, store an instance of it in a variable by calling its connec
 
     
        - const connection = SimpleSerial.connect(); 
-       - Select the Port (if you don’t see the COM Port in your Arduino IDE, you need to install the CP210x USB to UART Bridge VCP Drivers)):
-       - Open the following example under File > Examples > WiFi (ESP32) > WiFiScan
-       - A new sketch opens in your Arduino IDE
-       - Press the Upload button in the Arduino IDE. Wait a few seconds while the code compiles and uploads to your board.
-       - If everything went as expected, you should see a “Done uploading.” message.
-       - Open the Arduino IDE Serial Monitor at a baud rate of 115200
-       - Press the ESP32 on-board Enable button and you should see the networks available near your ESP32
        
 
     
