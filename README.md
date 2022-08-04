@@ -41,6 +41,8 @@ Define events you want to send to the Arduino ,any valid JSON can be sent as par
     
     connection.send('event-with-string', parameter);
     
+To see the code file for the entire web page after adding the modifications, you can find it from the attachments above
+    
 
     
 
