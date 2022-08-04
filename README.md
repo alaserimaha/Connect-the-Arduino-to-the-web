@@ -75,3 +75,5 @@ call the check() method at the beginning of each loop() to  make sure the librar
     void loop() {
         WebSerial.check();
     }
+
+To see the complete Arduino code file, you can find it from the attachments above
