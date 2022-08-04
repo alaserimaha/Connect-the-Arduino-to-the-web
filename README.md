@@ -44,6 +44,7 @@ Define events you want to send to the Arduino ,any valid JSON can be sent as par
 To see the code file for the entire web page after adding the modifications, you can find it from the attachments above [speech to text HTML file](https://github.com/alaserimaha/Connect-the-Arduino-to-the-web/blob/main/speech.html)
 
 ## 4. Arduino Usage
+### initialize serial communication
 At the top of the sketch create an instance of Simple Web Series and add connection speed used in the JavaScript library ( 57600 is the default)
 
     #include <SimpleWebSerial.h>
@@ -53,6 +54,9 @@ At the top of the sketch create an instance of Simple Web Series and add connect
         Serial.begin(57600);
     }
     
-
+### Listening to events
+Defining an event listener with event name and callback function on setup function .
+    
+    WebSerial.on("browser-event", doSomething);
     
 
