@@ -21,6 +21,12 @@ This is the easiest method to get you started immediately. Just include the scri
     
        <script lang="text/javascript" src="https://unpkg.com/simple-web-serial@latest/dist/simple-serial.min.js"></script>
 
+## 2. Installation - Arduino
+    1- Open the Arduino IDE
+    2- Open the Library Manager
+    3- Enter "Simple Web Serial" in the search field
+    4- Click on Simple Web Serial and hit the install button. 
+After the download is complete, the Arduino is ready to use!
 
 
 
