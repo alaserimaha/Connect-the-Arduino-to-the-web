@@ -12,6 +12,8 @@ Now to complete the project, using [Web Serial API](https://web.dev/serial/) (wh
 ## 3. JavaScript Usage
 ## 4. Arduino Usage
 
+![WebApi](https://user-images.githubusercontent.com/60073836/182812059-b92e54a0-9e1a-45d3-8fd9-391ae66ba407.jpeg)
+
 ## 1. Installation - JavaScript
 There are several ways to install Web Serial API in a web page via JavaScript,
 We will install Via <script> tag
