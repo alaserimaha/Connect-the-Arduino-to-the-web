@@ -46,12 +46,12 @@ To see the code file for the entire web page after adding the modifications, you
 ## 4. Arduino Usage
 At the top of the sketch create an instance of Simple Web Series and add connection speed used in the JavaScript library ( 57600 is the default)
 
-#include <SimpleWebSerial.h>
-SimpleWebSerial WebSerial;
-
-void setup() {
-    Serial.begin(57600);
-}
+    #include <SimpleWebSerial.h>
+    SimpleWebSerial WebSerial;
+    
+    void setup() {
+        Serial.begin(57600);
+    }
     
 
     
