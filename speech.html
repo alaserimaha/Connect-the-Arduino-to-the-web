@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+    <head>
+    <script lang="text/javascript" src="https://unpkg.com/simple-web-serial@latest/dist/simple-serial.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>صوتك الى نص !</title>
+</head >
+<body style= "background-color: #f9ebdf ;text-align:center;" >
+    
+    <br>
+    <label 
+    style="
+    display:block;
+    overflow:auto;
+    font-family:sans-serif;
+    text-shadow:0 0 2px #ddd;
+    padding:20px 10px 10px 0;
+    color: #334858;
+    font-size:40px;"
+     for="Speech Recognition">صوتك الى نص ! </label> 
+     <br><br><br>
+    <input style="
+    text-align:center;
+    border:2px solid #dadada;
+    border-radius:7px;
+    font-size:20px;
+    width: 300px; 
+    height: 100px;    
+    "
+    type="text" name="" id="speechToText" placeholder="اضغط ثم تحدث" onclick="record()">
+
+    <script>
+        var finalresult=""
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "ar-SA";
+
+            recognition.onresult = function(event) {
+                document.getElementById('speechToText').value = event.results[0][0].transcript;
+                let result = document.getElementById('speechToText').value;
+
+            if(result == 'يمين'){
+                finalresult="right"
+            } else if(result == 'يسار'){
+               finalresult="left"
+            }
+            alert(finalresult);
+
+            }
+            recognition.start();
+
+
+         
+        }
+
+        const connection = SimpleSerial.connect();
+        connection.send('event-with-string', finalresult);
+        //alert(finalresult);
+
+    </script>
+</body>
+</html>
