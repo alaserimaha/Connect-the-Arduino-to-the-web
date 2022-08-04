@@ -72,6 +72,6 @@ on doSomething function We will add the task of moving the robot arm, if the par
 call the check() method at the beginning of each loop() to  make sure the library knows when there is new serial data available:
     
     
-   void loop() {
-      WebSerial.check();
-   }
+    void loop() {
+        WebSerial.check();
+    }
